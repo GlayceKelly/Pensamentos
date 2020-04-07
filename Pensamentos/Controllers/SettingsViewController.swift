@@ -20,6 +20,11 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Observa a notificacao e formata a view com os valores atualizados do userdefaults
+        NotificationCenter.default.addObserver(forName: NSNotification.Name(rawValue: "Refresh"), object: nil, queue: nil) { (notification) in
+            self.formatView()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {

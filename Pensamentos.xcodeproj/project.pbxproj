@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431C8F18243CE88B00A6330A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 431C8F17243CE88B00A6330A /* Settings.bundle */; };
 		43A752CD243B9A76005C13FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A752CC243B9A76005C13FE /* AppDelegate.swift */; };
 		43A752CF243B9A76005C13FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A752CE243B9A76005C13FE /* SceneDelegate.swift */; };
 		43A752D4243B9A76005C13FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A752D2243B9A76005C13FE /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		431C8F17243CE88B00A6330A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Pensamentos/Settings.bundle; sourceTree = SOURCE_ROOT; };
 		43A752C9243B9A76005C13FE /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A752CC243B9A76005C13FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43A752CE243B9A76005C13FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				43A752EE243BDDFF005C13FE /* Models */,
 				43A752D2243B9A76005C13FE /* Main.storyboard */,
 				43A752D7243B9A7A005C13FE /* LaunchScreen.storyboard */,
+				431C8F17243CE88B00A6330A /* Settings.bundle */,
 				43A752D5243B9A7A005C13FE /* Assets.xcassets */,
 				43A752DA243B9A7A005C13FE /* Info.plist */,
 			);
@@ -171,6 +174,7 @@
 				43A752F3243C3EBE005C13FE /* quotes.json in Resources */,
 				43A752D9243B9A7A005C13FE /* LaunchScreen.storyboard in Resources */,
 				43A752D6243B9A7A005C13FE /* Assets.xcassets in Resources */,
+				431C8F18243CE88B00A6330A /* Settings.bundle in Resources */,
 				43A752D4243B9A76005C13FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
